@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.myheader{
+    
+    background-color: transparent;
+    height: 70px;
+    width: 100%;
+    font-size: 10pt;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+li a:hover{
+    color: khaki;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+}
+li{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+.mytitle{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.mytitle2{
+font-size: 19px;
+text-align: center;
+color: white;
+}
+.mytitle3{
+    font-size: 17px;
+    font-weight: 600;
+}
+.contact-section-grid{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: -100px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    left: 20%;
+    padding-top: 100px;
+}
+.contact-element{
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    background-color: white;
+}
+.contact-name{
+    margin: 0;
+}
+.contact-number1,.contact-number2{
+    color:deepskyblue;
+}
+.contact-element p{
+    margin: 0;
+}
+#myVideo{
+    width: 100%;
+    height: 90%;
+}
+.video-part{
+    position: relative;
+    height: 100%;
+    margin-bottom: 10%;
+}
+.text-part{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+}
+.img-part{
+    width: 30px;
+}

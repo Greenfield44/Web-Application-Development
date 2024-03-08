@@ -1,0 +1,123 @@
+
+.myheader{
+    background-color: transparent;
+    height: 70px;
+    width: 100%;
+    font-size: 10pt;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+li a:hover{
+    color: white;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+
+}
+li{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 14pt;
+    cursor: pointer;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(image/pexels-pixabay-262048.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.loginbox{
+    width: 320px;
+    height: 500px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 55px;
+    margin-top: 60px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute; 
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="sumbit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover
+{
+    color: #ffc107;
+}
+.log{
+width: 200px;
+}
+#clock{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    color: purple;
+}
+

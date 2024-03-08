@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Log in form</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    
+</head>
+<body>
+    <div class="myheader">
+        <ul>
+            <li><a href="login.html">Login</a></li>|
+            <li><a href="registration.html">Registration</a></li>|
+            <li><a href="home.html">Home</li></a>|
+            <li><a href="Rooms.html">Rooms</a></li>|
+            <li><a href="reservation.html">Reservation</a></li>|
+            <li><a href="menu.html">Menu</a></li>|
+            <li><a href="about.html">About Us</a></li>|
+            <li><a href="payment.html">Payment</a></li>|
+            <li><a href="contact us.html">Contact Us</a></li>
+        </ul>
+        </div>
+        <div class="time">
+            <title>Digital Clock</title>
+            <h1 id="clock"></h1>
+            <script src="clockCode.js"></script>
+    </div>
+    <div class="loginbox">
+        <img src="2.jpg" class="avatar">
+        <h1>Login Here</h1>
+        <form id="form">
+            <p>Username</p>
+            <input id="username" type="text" name="" placeholder="Enter Username" required>
+            <p>Password</p>
+            <input id="psw" type="password" name="" placeholder="Enter Password" required>
+            <button onclick="isEmpty();" type="submit" class="log">Login</button>
+           <p><a href="registration.html">Don't have an account?</a></p>
+        </form>
+    </div>
+    
+</body>
+<script>
+    const userName = document.getElementById('username');
+    const psw = document.getElementById('psw');
+    const form = document.getElementById('form');
+    function isEmpty(){
+        if(userName.value != "" && psw.value != ""){
+            alert('welcome');
+        }
+        else{
+            alert('please fill in all the inputs');
+        }
+    }
+    form.addEventListener('submit',(event)=>{
+        event.preventDefault();
+        window.location.href='home.html';
+    });
+
+</script>
+</html>
